@@ -1,0 +1,17 @@
+torch>=2.1
+transformers>=4.44
+datasets>=2.19
+accelerate>=0.33
+peft>=0.12
+trl>=0.9
+bitsandbytes>=0.43
+sentencepiece
+scikit-learn
+pandas
+tqdm
+pyyaml
+# optional, only needed for --use_liger
+liger-kernel
+# optional, only needed for src/evaluate.py
+bert-score
+rouge-score
